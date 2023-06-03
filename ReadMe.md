@@ -1,3 +1,4 @@
+
 Olá esse projeto te ensina a usar o git
 
 São comandos basicos para enterder sua "arvore de codigo" suas "ramificaçoes" e como versionar e gerenciar o seu codigo com git.
@@ -31,22 +32,26 @@ Comandos comuns do git
 
 git init (dentro da pasta a ser compartilhada para iniciar o git)
 
-git add nome do arquivo (para mandar o arquivo para aréa de stade)
+git add "nome do arquivo" (para mandar o arquivo para aréa de stade)
 
 git status (verificar o status)
 
 git branch -M "main"  (trocar o nome da 'ramificação atual')
 
-git remote add origin https:// seu github/ o nome do projeto (usado para conectar o git local com o github)
+git remote add origin https:// seu github/o nome do projeto (usado para conectar o git local com o github)
+
+git remote show origin (comandos para verificar se a conecção remote deu certo)
 
 git push -u origin main (empura as suas alteraçoes locais para o github)
 
 
-segundo commit 
+Segundo commit 
 
 git add . (caso vc queira que todos os arquivos sejam alterados) 
 
 git status (para verificar)
+
+git commit -m "nome do novo commit"
 
 git push origin main 
 
