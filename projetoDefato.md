@@ -1,2 +1,2 @@
 
-Aqui vc poderia desenvolver seu projeto.
+Aqui vc poderia desenvolver seu projeto principal.
